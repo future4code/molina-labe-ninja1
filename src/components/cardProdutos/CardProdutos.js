@@ -7,13 +7,10 @@ export class CardProdutos extends Component {
   render() {
     return (
       <Container>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-        </Container>
+          <Card 
+
+          />
+    </Container>
     )
   }
 }

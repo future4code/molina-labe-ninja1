@@ -15,3 +15,10 @@ export const ContainerText = styled.div`
     align-content: center;
     padding: 5px 40px 5px 20px;
 `
+
+export const InputContainer = styled.label`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 8px;
+`

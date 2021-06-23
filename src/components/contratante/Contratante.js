@@ -51,7 +51,9 @@ export class Contratante extends Component {
     return (
       <Container>
         <Filtro />
-        <CardProdutos />
+        <CardProdutos 
+          jobs={this.state.jobs}
+        />
         <Carrinho />
       </Container>
     )
