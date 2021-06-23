@@ -33,4 +33,5 @@ export const Logo = styled.div`
 
 export const IMGLogo = styled.img`
     width: 50%;
+    cursor: pointer;
 `
