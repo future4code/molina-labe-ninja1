@@ -8,6 +8,12 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     text-align: center;
+        @media (max-width:375px){
+            display: flex;
+            flex-direction: column;
+            height: 160px;
+            justify-content: space-around;
+        }
 `
 
 export const ButtonContainer = styled.div`
@@ -22,6 +28,9 @@ export const Logo = styled.div`
     width: 250px;
     justify-content: center;
     align-items: center;
+    @media (max-width:375px){
+        width: 100vw;
+    }
 `
 
 export const IMGLogo = styled.img`

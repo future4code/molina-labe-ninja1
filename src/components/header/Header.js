@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Logo, IMGLogo, ButtonContainer, Container  } from './styled'
+import { Logo, IMGLogo, Container  } from './styled'
 import labeninjas1 from '../img/labeninjas1.png' 
 //import  Button  from '../diversos/Button'
 
@@ -19,17 +19,7 @@ export class Header extends Component {
                 <Button>Contratante</Button>
                 <Button>Fornecedor</Button>
               </ButtonGroup>
-              {/* <ButtonContainer>
-                <Button 
-                  text="Home"
-                />
-                <Button 
-                  text="Contratante"
-                />
-                <Button 
-                  text="Fornecedor"
-                />
-              </ButtonContainer> */}
+              
             </Container>
         </div>
     )
