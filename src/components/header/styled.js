@@ -19,12 +19,11 @@ export const ButtonContainer = styled.div`
 `
 
 export const Logo = styled.div`
-    background-color: lightgoldenrodyellow;
-    width: 50px;
-    height: 50px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
 `
 
 export const IMGLogo = styled.img`
-    width: 50px;
-    height: 50px;
+    width: 50%;
 `
