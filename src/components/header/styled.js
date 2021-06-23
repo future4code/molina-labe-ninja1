@@ -13,15 +13,13 @@ export const Container = styled.div`
             flex-direction: column;
             height: 160px;
             justify-content: space-around;
+            padding: 10px;
         }
 `
 
 export const ButtonContainer = styled.div`
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding:10px;
+    width: 350px;
+    justify-content: center;
 `
 
 export const Logo = styled.div`

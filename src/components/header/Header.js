@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Logo, IMGLogo, Container  } from './styled'
+import { Logo, IMGLogo, ButtonContainer, Container  } from './styled'
 import labeninjas1 from '../img/labeninjas1.png' 
 //import  Button  from '../diversos/Button'
 
@@ -14,11 +14,13 @@ export class Header extends Component {
               <Logo>
                 <IMGLogo src={labeninjas1}></IMGLogo>  
               </Logo>
-              <ButtonGroup variant="text" color="primary" aria-label="text primary button group">
-                <Button>Home</Button>
-                <Button>Contratante</Button>
-                <Button>Fornecedor</Button>
-              </ButtonGroup>
+              <ButtonContainer>
+                <ButtonGroup variant="text" color="primary" aria-label="text primary button group">
+                  <Button>Home</Button>
+                  <Button>Contratante</Button>
+                  <Button>Fornecedor</Button>
+                </ButtonGroup>
+              </ButtonContainer>
               
             </Container>
         </div>
