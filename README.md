@@ -1,68 +1,136 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center" id="top">:rocket: == Projeto semana 8 - Labeninja == :rocket:</h1>
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/80704054/123421796-b778fb00-d593-11eb-9d0f-58f81af12663.png)
 
-In the project directory, you can run:
 
-### `npm start`
+<p align="center">
+  <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#funciona">O que funciona</a> &#xa0; | &#xa0;
+  <a href="#nao-funciona">O que não funciona</a> &#xa0; | &#xa0;
+  <a href="#pendente">Pendências</a> &#xa0; | &#xa0;
+  <a href="#requisitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#observacoes">Observações</a> &#xa0; | &#xa0;
+  <a href="#desenvolvedores">Desenvolvedores</a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 id="sobre">:notebook: Sobre </h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center">:rocket: Projeto desenvolvido conforme proposta do bootcamp ministrado pela Labenu, para o desenvolvimento de um web site de prestação de serviços baseado em React </p>
 
-### `npm test`
+<h2 id="tecnologias"> 🛠 Tecnologias </h2>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `npm run build`
+* React
+* API
+* Styled-components
+* Material UI
+* Metodologias Ágeis
+* Scrum
+* Kanban estruturado no Trello
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<h2 id="funciona">:heavy_check_mark: O que funciona</h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Pesquisa de serviços por categoria
+* Filtro de serviços por preço
+* Ordenação de serviços por preço, data e nome
+* Adição de produtos ao carrinho e finalização da contratação do serviço
+* Exibição dos pedidos realizados e possibilidade de cancelamento da contratação
+* Adição de serviços pelo prestador com funcionalidade extra para adionar **Categoria e Imagem**
+* Visualização dos serviços disponilibilizados pelo prestador
+* Retirada do anúncio do serviço pelo prestador
 
-### `npm run eject`
+<h2 id="nao-funciona">:x: O que não funciona</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Login
+* Cadastro de fornecedores
+ 
+<h2 id="pendente">:construction: Em desenvolvimento</h2>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] Integração com API para cadastro de contratantes e prestadores (ninjas)
+- [ ] Melhorias na responsividade do site em resoluções intermediárias
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h2 id="link">:link: Link Surge - link para visualização do site</h2>
+ <a href="http://molina-labeninjas1.surge.sh//">Labeninjas</a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h2 id="imagens">:computer: Imagens Desktop</h2>
 
-## Learn More
+- **Página inicial**
+<img src="https://github.com/future4code/molina-labe-ninja1/blob/451ac6f9a803959e7fcc20cc53110ede37dd4daf/documents/site_img_overview/04_labeninjas-nav.gif" alt="Navegação Animada" width="500"/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+para mais imagens do site, poderá ser acessado o diretório de [imagens](https://github.com/future4code/molina-labe-ninja1/tree/451ac6f9a803959e7fcc20cc53110ede37dd4daf/documents/site_img_overview)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[comment]: <> (<h2>:iphone: Imagens Mobile</h2> - **Página Inicial**<hr></hr>)
 
-### Code Splitting
+<h2 id="requisitos">:leftwards_arrow_with_hook: Pré-requisitos</h2>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### Analyzing the Bundle Size
+<h4>:checkered_flag: Rodando o projeto </h4>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```bash
+# Clone este repositório
+$ git clone <https://github.com/future4code/molina-labe-ninja1>
 
-### Making a Progressive Web App
+# Acesse a pasta do projeto no terminal
+$ cd ./molina-labe-ninja1
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+# Instale as dependências
+$ npm install
 
-### Advanced Configuration
+# Para iniciar o projeto
+$ npm run start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
-### Deployment
+<h2 id="observacoes">:pencil: Observações</h2>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- Ícones utilizados para organização de commit's
 
-### `npm run build` fails to minify
+:checkered_flag: release
+:package: nova funcionalidade 
+:arrow_up: atualização 
+:beetle: correção de bug
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- A Documentação do projeto poderá ser acessada neste [link](https://github.com/future4code/molina-labe-ninja1/blob/451ac6f9a803959e7fcc20cc53110ede37dd4daf/documents/documentacao.md) e o diretório neste [link](https://github.com/future4code/molina-labe-ninja1/tree/451ac6f9a803959e7fcc20cc53110ede37dd4daf/documents)
+- Uma breve apresentação da evolução do projeto pode ser vista: [pagina home](https://github.com/future4code/molina-labe-ninja1/blob/451ac6f9a803959e7fcc20cc53110ede37dd4daf/documents/visual-follow-up_steps/01_home/04_animation_steps.gif) | [pagina contratante](https://github.com/future4code/molina-labe-ninja1/blob/451ac6f9a803959e7fcc20cc53110ede37dd4daf/documents/visual-follow-up_steps/02_customer/04_animation_steps.gif) | [página prestador](https://github.com/future4code/molina-labe-ninja1/blob/451ac6f9a803959e7fcc20cc53110ede37dd4daf/documents/visual-follow-up_steps/03_provider/04_animation_steps.gif)
+- Kanban atualizado (Backlog / To do / In progress / Done)
+<img src="https://github.com/future4code/molina-labe-ninja1/blob/451ac6f9a803959e7fcc20cc53110ede37dd4daf/documents/visual-follow-up_steps/Labeninjas_kanban_Trello.png" alt="Home" width="500"/>>
+
+<h2 id="desenvolvedores">:construction_worker: Desenvolvedores</h2>
+
+<table> 
+<tr>
+ 
+<td align="center"><a href="https://github.com/BrunoPogianMallta"><img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/74029775?v=4" width="100px" alt=""/>
+ <br />
+ <sub><b>Bruno Poggian</b></sub></a> <a href="https://github.com/BrunoPogianMallta">🚀</a></td>
+ 
+ 
+<td align="center"><a href="https://github.com/danilo-ac"><img style="border-radius: 50%" src="https://ca.slack-edge.com/TLAVDH7C2-U020JT4QD08-728187f5c368-512" width="100px" alt=""/>
+ <br />
+ <sub><b>Danilo Chagas</b></sub></a> <a href="https://github.com/danilo-ac">🚀</a></td>
+
+ <td align="center"><a href="https://github.com/bellacbs"><img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/35279793?v=4" width="100px" alt=""/>
+ <br />
+ <sub><b>Izabella Brandão</b></sub></a> <a href="https://github.com/bellacbs">🚀</a></td>
+
+ <td align="center"><a href="https://github.com/tshadz"><img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/80704054?v=4" width="100px" alt=""/>
+ <br />
+ <sub><b>Thaís Sombra</b></sub></a> <a href="https://github.com/tshadz">🚀</a></td>
+ 
+ <td align="center"><a href="https://github.com/VitoriaMochovik"><img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/82537066?v=4" width="100px" alt=""/>
+ <br />
+ <sub><b>Vitória Mochovik</b></sub></a> <a href="https://github.com/VitoriaMochovik">🚀</a></td>
+
+
+</tr>
+</table>
+
+👋🏽 Entre em contato!
+
+<a href="#top">Voltar para o topo</a>
